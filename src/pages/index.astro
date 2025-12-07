@@ -39,7 +39,10 @@ const metadata = {
         class="text-accent dark:text-white">Startup</span
       > with Astrowind templates
     </Fragment>
-    <CallToAction
+   
+
+    <Fragment slot="subtitle">
+       <CallToAction
     actions={[
       {
         variant: 'primary',
@@ -57,21 +60,12 @@ const metadata = {
       impact.
     </Fragment>
   </CallToAction>
-
-    <Fragment slot="subtitle">
+  
       Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
       startup's digital footprint, fostering credibility, and expanding your reach.
     </Fragment>
 
-    <Fragment slot="image">
-      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
-      <style is:inline>
-        lite-youtube {
-          margin: 0 auto;
-          max-width: 100%;
-        }
-      </style>
-    </Fragment>
+   
   </Hero>
 
   <!-- Features2 Widget ************** -->
