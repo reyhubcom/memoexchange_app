@@ -2,242 +2,70 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import Features2 from '~/components/widgets/Features2.astro';
-import Features from '~/components/widgets/Features.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Brands from '~/components/widgets/Brands.astro';
-
-import { YouTube } from 'astro-embed';
-
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Digital Asset Staking | Validator & Delegate Crypto',
+  ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
-   <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/91904867-6144-4f51-b3b2-34f41b37f8f4/HTIeBdaGsH.lottie" speed="1" style="width: 100%; height: 130px" mode="forward" loop autoplay></dotlottie-wc>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
 
   <Hero
-   <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/91904867-6144-4f51-b3b2-34f41b37f8f4/HTIeBdaGsH.lottie" speed="1" style="width: 100%; height: 130px" mode="forward" loop autoplay></dotlottie-wc>
-  
-    tagline="Startup Web Demo"
-    
     actions={[
-      {
-        variant: 'primary',
-        target: '_blank',
-        text: 'Coins',
-        href: 'https://github.com/arthelokyo/astrowind',
-        icon: 'tabler:download',
-      },
-      { text: 'Wallet', href: '#features' },
-       { text: 'Stocks', href: '#features' },
-        { text: 'Crypto', href: '#features' },
+     
+    ]}
+  
+  >
+    <Fragment slot="title">
+            <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/91904867-6144-4f51-b3b2-34f41b37f8f4/HTIeBdaGsH.lottie" speed="1" style="width: 100%; height: 130px" mode="forward" loop autoplay></dotlottie-wc>
+      <span class="hidden xl:inline"> </span>
+      <span class="text-accent dark:text-white"> Let's Exchange</span> 
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold"> Web3.0</span> Crypto Exchange
+        <span class="font-semibold"></span> The average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.
+        </span
+       
+      >
+      <CallToAction
+    actions={[
+   
     ]}
   >
     <Fragment slot="title">
-      Memo <span class="hidden sm:inline">.</span>. <span
-        class="text-accent dark:text-white"></span
-      > Exchange
+     
     </Fragment>
-   
 
     <Fragment slot="subtitle">
-       <CallToAction
-    actions={[
-      
-    ]}
-  >
-   
-
-    <Fragment slot="subtitle">
-   <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e9" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e9" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
    <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=040422&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 400px; width: 100%; border: 1"></iframe>
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
-  </CallToAction>
-  
-      Memo <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fo.
-    </Fragment>
-
-   
+ </Fragment>
+    </CallToAction>
+     
   </Hero>
 
-  <!-- Features2 Widget ************** -->
+  <!-- Note Widget ******************* -->
+ <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
 
-  <Features2
-    title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 5.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    title="Discover the impressive impact of Astrowind"
-    subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
-    stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
-      { title: 'User Ratings', amount: '4.8' },
-      { title: 'Satisfied Clients', amount: '116K' },
-    ]}
-  />
-
-  <!-- Brands Widget ****************** -->
-
-  <Brands
-    title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
-    icons={[]}
-    images={[
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png',
-        alt: 'Paypal',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/48/visa-6850402_1280.png',
-        alt: 'Visa',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_1280.png',
-        alt: 'Ebay',
-      },
-
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png',
-        alt: 'Youtube',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png',
-        alt: 'Microsoft',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',
-        alt: 'Node JS',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png',
-        alt: 'Google',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png',
-        alt: 'Meta',
-      },
-      {
-        src: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png',
-        alt: 'Yahoo',
-      },
-    ]}
-  />
-
- 
-  <!-- Features Widget *************** -->
-
-  <Features
-    id="features"
-    title="Main features of our templates"
-    subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
-    columns={3}
-    items={[
-      {
-        title: 'Modern and Professional Design',
-        description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
-        icon: 'tabler:artboard',
-      },
-      {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
-        icon: 'tabler:picture-in-picture',
-      },
-      {
-        title: 'Customizability',
-        description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
-        icon: 'tabler:adjustments-horizontal',
-      },
-      {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
-        icon: 'tabler:plug-connected',
-      },
-    ]}
-  />
-
- 
-  <!-- Features3 Widget ************** -->
-
-  <Features3
-    title="Let us know how we can help"
-    subtitle="We’re here to help and answer any question you might have."
-    columns={4}
-    items={[
-      {
-        title: 'Phone',
-        icon: 'tabler:phone',
-        callToAction: {
-          target: '_blank',
-          text: 'Call us',
-          href: '/',
-          variant: 'link',
-        },
-      },
-      {
-        title: 'Email',
-        icon: 'tabler:mail',
-        callToAction: {
-          target: '_blank',
-          text: 'Write to us',
-          href: '/',
-          variant: 'link',
-        },
-      },
-      {
-        title: 'Chat with sales',
-        icon: 'tabler:message-circle',
-        callToAction: {
-          target: '_blank',
-          text: 'Start chatting',
-          href: '/',
-          variant: 'link',
-        },
-      },
-      {
-        title: 'Chat with support',
-        icon: 'tabler:message-circle',
-        callToAction: {
-          target: '_blank',
-          text: 'Start chatting',
-          href: '/',
-          variant: 'link',
-        },
-      },
-    ]}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  
+  ChannelIO('boot', {
+    "pluginKey": "d8136106-354a-4734-adb1-21da70253c66"
+  });
+</script>
 </Layout>
