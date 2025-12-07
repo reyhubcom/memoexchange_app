@@ -5,6 +5,19 @@ import { SITE } from 'astrowind:config';
 <span
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
-<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/2064d98d-02b5-4943-9357-124e895ec9c8/aJRXZB8SVi.lottie" speed="1" style="width: 80px; height: 80px" mode="forward" loop autoplay></dotlottie-wc>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+  {
+  "symbol": "COINBASE:BTCUSD",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en",
+  "width": 200
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 </span>
