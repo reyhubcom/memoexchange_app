@@ -21,8 +21,12 @@ const metadata = {
 <Layout metadata={metadata}>
  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
- <Hero
-    
+
+  <Hero
+    actions={[
+     
+    ]}
+  
   >
     <Fragment slot="title">
             <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
@@ -43,7 +47,9 @@ const metadata = {
    
     ]}
   >
- 
+    <Fragment slot="title">
+     
+    </Fragment>
 
     <Fragment slot="subtitle">
       <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e9" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
@@ -51,14 +57,6 @@ const metadata = {
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
  </Fragment>
     </CallToAction>
-     <Hero2
-    tagline="SaaS Web Demo"
-    actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/arthelokyo/astrowind' },
-      { text: 'Learn more', href: '#features' },
-    ]}
-    
-  ></Hero2>
      
   </Hero>
 
