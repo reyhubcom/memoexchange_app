@@ -21,46 +21,12 @@ const metadata = {
 <Layout metadata={metadata}>
  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
- <Hero
-    tagline=""
-     actions={[
-      {
-        variant: 'secondary',
-        target: '_blank',
-        text: 'Stacks',
-        href: 'https://app.stackingdao.com/',
-        icon: 'tabler:link',
-      },
-      {
-        variant: 'secondary',
-        target: '_blank',
-        text: 'Hermetica',
-        href: 'https://app.hermetica.fi/portfolio',
-        icon: 'tabler:link',
-      },
-       {
-        variant: 'secondary',
-        target: '_blank',
-        text: 'Velar',
-        href: 'https://velar.com/',
-        icon: 'tabler:link',
-      },
-       {
-        variant: 'secondary',
-        target: '_blank',
-        text: 'Asigna',
-        href: 'https://www.asigna.io/',
-        icon: 'tabler:link',
-      },
-       {
-        variant: 'secondary',
-        target: '',
-        text: 'Staking',
-        href: '/bitcoin/btc.2',
-        icon: 'tabler:circle-arrow-up-right',
-      },
-       
+
+  <Hero
+    actions={[
+     
     ]}
+  
   >
     <Fragment slot="title">
             <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
